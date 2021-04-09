@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background-color: #cbf1f5;
+}
+
+table {
+  /* border: 1px solid black; */
+  margin: 0 5%;
+  display: inline;
+}
+
+th {
+  border: 1px solid black;
+}
+
+.table-div {
+  margin: 3% 0;
+}
