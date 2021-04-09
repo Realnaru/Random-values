@@ -12,7 +12,7 @@ document.querySelector("#horizontal").addEventListener("click", () => addHorizzo
 
 
 
-//adds needed amount of 5 row locks with randon values to first table
+//adds needed amount of 5 row blocks with randon values to first table
 function addVerticalRows() {
 
   let myTable = document.getElementById("vertical-table");
