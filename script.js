@@ -105,7 +105,7 @@ function getRandomArbitrary(min, max) {
   return Math.random() * (max - min) + min;
 }
 
-//calculate final value to insert in table by defaul uses parameter from scaleTop if there is sexond parameter uses it
+//calculate final value to insert in table by defaul uses parameter from scaleTop if there is second parameter uses it
 function calculateFinalValue(value, scaleTop){
   let result = value + calculateRandomError(scaleTop);
   const amountOfSigns = +document.querySelector("#signs").value;
