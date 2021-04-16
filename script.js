@@ -75,8 +75,8 @@ function addVerticalRowsFromArray() {
   let myTable = document.getElementById("vertical-table");
   const array = document.querySelector("#array-input").value.replaceAll("\t", " ").replaceAll("\n", " ").trim().replaceAll(",",".").split(" ");
 
-  for (let i = 0; i < array.length; i += 5) {
-      for (let j = 0; j < 5; j++) {
+  for (let i = 4; i < array.length; i += 5) {
+      for (let j = i - 4; j <= i; j++) {
         let tr = document.createElement("tr");
         let td = document.createElement("td");
          myTable.appendChild(tr);
